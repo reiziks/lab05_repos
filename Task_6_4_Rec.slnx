@@ -1,0 +1,18 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Release" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Program/">
+    <Project Path="Task_6_4_Rec/Task_6_4_Rec.vcxproj">
+      <Platform Solution="*|x86" Project="Win32" />
+    </Project>
+  </Folder>
+  <Folder Name="/UnitTest/">
+    <Project Path="Task_6_4_Rec_Test/Task_6_4_Rec_Test.vcxproj">
+      <Platform Solution="*|x86" Project="Win32" />
+    </Project>
+  </Folder>
+</Solution>

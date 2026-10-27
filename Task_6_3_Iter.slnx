@@ -1,0 +1,18 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Release" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Program/">
+    <Project Path="Task_6_3_Iter/Task_6_3_Iter.vcxproj">
+      <Platform Solution="*|x86" Project="Win32" />
+    </Project>
+  </Folder>
+  <Folder Name="/UnitTest/">
+    <Project Path="Task_6_3_Iter_Test/Task_6_3_Iter_Test.vcxproj">
+      <Platform Solution="*|x86" Project="Win32" />
+    </Project>
+  </Folder>
+</Solution>
